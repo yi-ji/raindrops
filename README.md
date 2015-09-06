@@ -1,9 +1,9 @@
 # Drawing Real-time Ray-tracing Raindrops on iOS 8
 
 ## Introduction
-This demo app has been tested on Xcode iPhone 5s simulator & device.
-In this demo app, raindrops is randomly genereted and flows by the effect of gravity.
-This demo app is a small game, you can manipulate the speed of raindrops by gravity sensor, and avoid transparent raindrops get touched by those toxic (purple) ones. The longer you stayed the better.
+* This demo app has been tested on Xcode iPhone 5s simulator & device.
+* In this demo app, raindrops is randomly genereted and flows by the effect of gravity.
+* This demo app is a small game, you can manipulate the speed of raindrops by gravity sensor, and avoid transparent raindrops get touched by those toxic (purple) ones. The longer you stayed the better.
 
 ### To make it real:
 * The change of speed could slightly deform the raindrops.
