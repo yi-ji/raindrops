@@ -10,5 +10,6 @@
 * Parametric equations are applied to generate the natural brim of raindrops.
 * Real-time ray-tracing is applied (on 2D background for simplification, although raindrops are 3D).
 
-#### Demo screenshot:s
+#### Demo screenshot
+
 ![screenshot from demo](/demo.jpg)
