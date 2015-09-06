@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0109464E1AFFA4F10069B75B /* back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 010946481AFFA4F10069B75B /* back.jpg */; };
+		0109464F1AFFA4F10069B75B /* bottom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 010946491AFFA4F10069B75B /* bottom.jpg */; };
+		010946501AFFA4F10069B75B /* front.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0109464A1AFFA4F10069B75B /* front.jpg */; };
+		010946511AFFA4F10069B75B /* left.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0109464B1AFFA4F10069B75B /* left.jpg */; };
+		010946521AFFA4F10069B75B /* right.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0109464C1AFFA4F10069B75B /* right.jpg */; };
+		010946531AFFA4F10069B75B /* top.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0109464D1AFFA4F10069B75B /* top.jpg */; };
+		01686C811B344407007AD59B /* front-mirror.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 01686C801B344407007AD59B /* front-mirror.jpeg */; };
+		01686C831B34448D007AD59B /* front.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 01686C821B34448D007AD59B /* front.jpeg */; };
+		016BD0E71AF617750019C4E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BD0E61AF617750019C4E2 /* AppDelegate.swift */; };
+		016BD0ED1AF617750019C4E2 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BD0EC1AF617750019C4E2 /* GameViewController.swift */; };
+		016BD0F01AF617750019C4E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 016BD0EE1AF617750019C4E2 /* Main.storyboard */; };
+		016BD0F21AF617760019C4E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 016BD0F11AF617760019C4E2 /* Images.xcassets */; };
+		016BD0F51AF617760019C4E2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 016BD0F31AF617760019C4E2 /* LaunchScreen.xib */; };
+		016BD1011AF617760019C4E2 /* waterwaterwaterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016BD1001AF617760019C4E2 /* waterwaterwaterTests.swift */; };
+		017F25A51B00554E0021A38D /* ModelAssetLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017F25A41B00554E0021A38D /* ModelAssetLoader.swift */; };
+		01D8B7761B326CD600A36BED /* Stain.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 01D8B7751B326CD600A36BED /* Stain.vsh */; };
+		01D8B7781B326CE500A36BED /* Stain.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 01D8B7771B326CE500A36BED /* Stain.fsh */; };
+		01D8B77E1B32BA2800A36BED /* back-blur.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 01D8B7791B32BA2800A36BED /* back-blur.jpeg */; };
+		01D8B77F1B32BA2800A36BED /* bottom-blur.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 01D8B77A1B32BA2800A36BED /* bottom-blur.jpeg */; };
+		01D8B7801B32BA2800A36BED /* left-blur.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 01D8B77B1B32BA2800A36BED /* left-blur.jpeg */; };
+		01D8B7811B32BA2800A36BED /* right-blur.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 01D8B77C1B32BA2800A36BED /* right-blur.jpeg */; };
+		01D8B7821B32BA2800A36BED /* top-blur.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 01D8B77D1B32BA2800A36BED /* top-blur.jpeg */; };
+		01E8EAD71B35B9480001DA5F /* fushi-blur.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 01E8EAD51B35B9480001DA5F /* fushi-blur.jpeg */; };
+		01E8EAD81B35B9480001DA5F /* fushi-mirror.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 01E8EAD61B35B9480001DA5F /* fushi-mirror.jpeg */; };
+		01E8EADB1B35BA8B0001DA5F /* afternoon-blur.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 01E8EAD91B35BA8B0001DA5F /* afternoon-blur.jpeg */; };
+		01E8EADC1B35BA8B0001DA5F /* afternoon-mirror.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 01E8EADA1B35BA8B0001DA5F /* afternoon-mirror.jpeg */; };
+		01FB39CF1B301A2200A931A5 /* front-blur.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 01FB39CE1B301A2200A931A5 /* front-blur.jpeg */; };
+		01FB39D21B31A08E00A931A5 /* MathUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FB39D11B31A08E00A931A5 /* MathUtil.swift */; };
+		01FB907C1AFCBE0A000A8729 /* WorldModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FB907B1AFCBE0A000A8729 /* WorldModel.swift */; };
+		01FB908E1AFCC14E000A8729 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FB907E1AFCC14E000A8729 /* Camera.swift */; };
+		01FB908F1AFCC14E000A8729 /* GLKExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FB907F1AFCC14E000A8729 /* GLKExtension.swift */; };
+		01FB90901AFCC14E000A8729 /* Light.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FB90801AFCC14E000A8729 /* Light.swift */; };
+		01FB90911AFCC14E000A8729 /* ModelAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FB90811AFCC14E000A8729 /* ModelAsset.swift */; };
+		01FB90921AFCC14E000A8729 /* Program.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FB90821AFCC14E000A8729 /* Program.swift */; };
+		01FB90931AFCC14E000A8729 /* Texture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FB90831AFCC14E000A8729 /* Texture.swift */; };
+		01FB90981AFCC14E000A8729 /* Droplet.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 01FB908A1AFCC14E000A8729 /* Droplet.fsh */; };
+		01FB90991AFCC14E000A8729 /* Droplet.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 01FB908B1AFCC14E000A8729 /* Droplet.vsh */; };
+		01FB909A1AFCC14E000A8729 /* Skybox.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 01FB908C1AFCC14E000A8729 /* Skybox.fsh */; };
+		01FB909B1AFCC14E000A8729 /* Skybox.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 01FB908D1AFCC14E000A8729 /* Skybox.vsh */; };
+		01FB909D1AFD1B45000A8729 /* Render.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FB909C1AFD1B45000A8729 /* Render.swift */; };
+		01FB90A11AFE01AC000A8729 /* PhysicsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FB90A01AFE01AC000A8729 /* PhysicsModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		016BD0FB1AF617760019C4E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 016BD0D91AF617750019C4E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 016BD0E01AF617750019C4E2;
+			remoteInfo = waterwaterwater;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		010946481AFFA4F10069B75B /* back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back.jpg; sourceTree = "<group>"; };
+		010946491AFFA4F10069B75B /* bottom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bottom.jpg; sourceTree = "<group>"; };
+		0109464A1AFFA4F10069B75B /* front.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = front.jpg; sourceTree = "<group>"; };
+		0109464B1AFFA4F10069B75B /* left.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = left.jpg; sourceTree = "<group>"; };
+		0109464C1AFFA4F10069B75B /* right.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = right.jpg; sourceTree = "<group>"; };
+		0109464D1AFFA4F10069B75B /* top.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = top.jpg; sourceTree = "<group>"; };
+		01686C801B344407007AD59B /* front-mirror.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "front-mirror.jpeg"; sourceTree = "<group>"; };
+		01686C821B34448D007AD59B /* front.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = front.jpeg; sourceTree = "<group>"; };
+		016BD0E11AF617750019C4E2 /* waterwaterwater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = waterwaterwater.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		016BD0E51AF617750019C4E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		016BD0E61AF617750019C4E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		016BD0EC1AF617750019C4E2 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		016BD0EF1AF617750019C4E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		016BD0F11AF617760019C4E2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		016BD0F41AF617760019C4E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		016BD0FA1AF617760019C4E2 /* waterwaterwaterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = waterwaterwaterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		016BD0FF1AF617760019C4E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		016BD1001AF617760019C4E2 /* waterwaterwaterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waterwaterwaterTests.swift; sourceTree = "<group>"; };
+		017F25A41B00554E0021A38D /* ModelAssetLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelAssetLoader.swift; sourceTree = "<group>"; };
+		0184E8611AF7949A006A9C73 /* backupvc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = backupvc.swift; sourceTree = "<group>"; };
+		01D8B7751B326CD600A36BED /* Stain.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Stain.vsh; sourceTree = "<group>"; };
+		01D8B7771B326CE500A36BED /* Stain.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Stain.fsh; sourceTree = "<group>"; };
+		01D8B7791B32BA2800A36BED /* back-blur.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "back-blur.jpeg"; sourceTree = "<group>"; };
+		01D8B77A1B32BA2800A36BED /* bottom-blur.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bottom-blur.jpeg"; sourceTree = "<group>"; };
+		01D8B77B1B32BA2800A36BED /* left-blur.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "left-blur.jpeg"; sourceTree = "<group>"; };
+		01D8B77C1B32BA2800A36BED /* right-blur.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "right-blur.jpeg"; sourceTree = "<group>"; };
+		01D8B77D1B32BA2800A36BED /* top-blur.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "top-blur.jpeg"; sourceTree = "<group>"; };
+		01E8EAD51B35B9480001DA5F /* fushi-blur.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fushi-blur.jpeg"; sourceTree = "<group>"; };
+		01E8EAD61B35B9480001DA5F /* fushi-mirror.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fushi-mirror.jpeg"; sourceTree = "<group>"; };
+		01E8EAD91B35BA8B0001DA5F /* afternoon-blur.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "afternoon-blur.jpeg"; sourceTree = "<group>"; };
+		01E8EADA1B35BA8B0001DA5F /* afternoon-mirror.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "afternoon-mirror.jpeg"; sourceTree = "<group>"; };
+		01FB39CE1B301A2200A931A5 /* front-blur.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "front-blur.jpeg"; sourceTree = "<group>"; };
+		01FB39D11B31A08E00A931A5 /* MathUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathUtil.swift; sourceTree = "<group>"; };
+		01FB907B1AFCBE0A000A8729 /* WorldModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorldModel.swift; sourceTree = "<group>"; };
+		01FB907E1AFCC14E000A8729 /* Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		01FB907F1AFCC14E000A8729 /* GLKExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GLKExtension.swift; sourceTree = "<group>"; };
+		01FB90801AFCC14E000A8729 /* Light.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Light.swift; sourceTree = "<group>"; };
+		01FB90811AFCC14E000A8729 /* ModelAsset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelAsset.swift; sourceTree = "<group>"; };
+		01FB90821AFCC14E000A8729 /* Program.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Program.swift; sourceTree = "<group>"; };
+		01FB90831AFCC14E000A8729 /* Texture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Texture.swift; sourceTree = "<group>"; };
+		01FB908A1AFCC14E000A8729 /* Droplet.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Droplet.fsh; sourceTree = "<group>"; };
+		01FB908B1AFCC14E000A8729 /* Droplet.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Droplet.vsh; sourceTree = "<group>"; };
+		01FB908C1AFCC14E000A8729 /* Skybox.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Skybox.fsh; sourceTree = "<group>"; };
+		01FB908D1AFCC14E000A8729 /* Skybox.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Skybox.vsh; sourceTree = "<group>"; };
+		01FB909C1AFD1B45000A8729 /* Render.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Render.swift; sourceTree = "<group>"; };
+		01FB90A01AFE01AC000A8729 /* PhysicsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhysicsModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		016BD0DE1AF617750019C4E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		016BD0F71AF617760019C4E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		010946471AFFA4F10069B75B /* Skybox */ = {
+			isa = PBXGroup;
+			children = (
+				01E8EAD91B35BA8B0001DA5F /* afternoon-blur.jpeg */,
+				01E8EADA1B35BA8B0001DA5F /* afternoon-mirror.jpeg */,
+				01E8EAD51B35B9480001DA5F /* fushi-blur.jpeg */,
+				01E8EAD61B35B9480001DA5F /* fushi-mirror.jpeg */,
+				01686C821B34448D007AD59B /* front.jpeg */,
+				01686C801B344407007AD59B /* front-mirror.jpeg */,
+				01D8B7791B32BA2800A36BED /* back-blur.jpeg */,
+				01D8B77A1B32BA2800A36BED /* bottom-blur.jpeg */,
+				01D8B77B1B32BA2800A36BED /* left-blur.jpeg */,
+				01D8B77C1B32BA2800A36BED /* right-blur.jpeg */,
+				01D8B77D1B32BA2800A36BED /* top-blur.jpeg */,
+				01FB39CE1B301A2200A931A5 /* front-blur.jpeg */,
+				010946481AFFA4F10069B75B /* back.jpg */,
+				010946491AFFA4F10069B75B /* bottom.jpg */,
+				0109464A1AFFA4F10069B75B /* front.jpg */,
+				0109464B1AFFA4F10069B75B /* left.jpg */,
+				0109464C1AFFA4F10069B75B /* right.jpg */,
+				0109464D1AFFA4F10069B75B /* top.jpg */,
+			);
+			path = Skybox;
+			sourceTree = "<group>";
+		};
+		016BD0D81AF617750019C4E2 = {
+			isa = PBXGroup;
+			children = (
+				016BD0E31AF617750019C4E2 /* waterwaterwater */,
+				016BD0FD1AF617760019C4E2 /* waterwaterwaterTests */,
+				016BD0E21AF617750019C4E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		016BD0E21AF617750019C4E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				016BD0E11AF617750019C4E2 /* waterwaterwater.app */,
+				016BD0FA1AF617760019C4E2 /* waterwaterwaterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		016BD0E31AF617750019C4E2 /* waterwaterwater */ = {
+			isa = PBXGroup;
+			children = (
+				01FB39D01B31A02900A931A5 /* Math */,
+				01FB907D1AFCC14E000A8729 /* GL Helpers */,
+				017F25A61B00583E0021A38D /* Drawable Models */,
+				01FB909F1AFE0128000A8729 /* Physics */,
+				01FB90891AFCC14E000A8729 /* Shaders */,
+				010946471AFFA4F10069B75B /* Skybox */,
+				016BD0EC1AF617750019C4E2 /* GameViewController.swift */,
+				016BD0E61AF617750019C4E2 /* AppDelegate.swift */,
+				016BD0EE1AF617750019C4E2 /* Main.storyboard */,
+				0184E8611AF7949A006A9C73 /* backupvc.swift */,
+				016BD0E41AF617750019C4E2 /* Supporting Files */,
+			);
+			path = waterwaterwater;
+			sourceTree = "<group>";
+		};
+		016BD0E41AF617750019C4E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				016BD0F11AF617760019C4E2 /* Images.xcassets */,
+				016BD0F31AF617760019C4E2 /* LaunchScreen.xib */,
+				016BD0E51AF617750019C4E2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		016BD0FD1AF617760019C4E2 /* waterwaterwaterTests */ = {
+			isa = PBXGroup;
+			children = (
+				016BD1001AF617760019C4E2 /* waterwaterwaterTests.swift */,
+				016BD0FE1AF617760019C4E2 /* Supporting Files */,
+			);
+			path = waterwaterwaterTests;
+			sourceTree = "<group>";
+		};
+		016BD0FE1AF617760019C4E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				016BD0FF1AF617760019C4E2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		017F25A61B00583E0021A38D /* Drawable Models */ = {
+			isa = PBXGroup;
+			children = (
+				01FB90811AFCC14E000A8729 /* ModelAsset.swift */,
+				017F25A41B00554E0021A38D /* ModelAssetLoader.swift */,
+				01FB909C1AFD1B45000A8729 /* Render.swift */,
+			);
+			path = "Drawable Models";
+			sourceTree = "<group>";
+		};
+		01FB39D01B31A02900A931A5 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				01FB39D11B31A08E00A931A5 /* MathUtil.swift */,
+			);
+			path = Math;
+			sourceTree = "<group>";
+		};
+		01FB907D1AFCC14E000A8729 /* GL Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				01FB907E1AFCC14E000A8729 /* Camera.swift */,
+				01FB907F1AFCC14E000A8729 /* GLKExtension.swift */,
+				01FB90801AFCC14E000A8729 /* Light.swift */,
+				01FB90821AFCC14E000A8729 /* Program.swift */,
+				01FB90831AFCC14E000A8729 /* Texture.swift */,
+			);
+			path = "GL Helpers";
+			sourceTree = "<group>";
+		};
+		01FB90891AFCC14E000A8729 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				01FB908A1AFCC14E000A8729 /* Droplet.fsh */,
+				01FB908B1AFCC14E000A8729 /* Droplet.vsh */,
+				01FB908C1AFCC14E000A8729 /* Skybox.fsh */,
+				01FB908D1AFCC14E000A8729 /* Skybox.vsh */,
+				01D8B7751B326CD600A36BED /* Stain.vsh */,
+				01D8B7771B326CE500A36BED /* Stain.fsh */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+		01FB909F1AFE0128000A8729 /* Physics */ = {
+			isa = PBXGroup;
+			children = (
+				01FB907B1AFCBE0A000A8729 /* WorldModel.swift */,
+				01FB90A01AFE01AC000A8729 /* PhysicsModel.swift */,
+			);
+			path = Physics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		016BD0E01AF617750019C4E2 /* waterwaterwater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 016BD1041AF617760019C4E2 /* Build configuration list for PBXNativeTarget "waterwaterwater" */;
+			buildPhases = (
+				016BD0DD1AF617750019C4E2 /* Sources */,
+				016BD0DE1AF617750019C4E2 /* Frameworks */,
+				016BD0DF1AF617750019C4E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = waterwaterwater;
+			productName = waterwaterwater;
+			productReference = 016BD0E11AF617750019C4E2 /* waterwaterwater.app */;
+			productType = "com.apple.product-type.application";
+		};
+		016BD0F91AF617760019C4E2 /* waterwaterwaterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 016BD1071AF617760019C4E2 /* Build configuration list for PBXNativeTarget "waterwaterwaterTests" */;
+			buildPhases = (
+				016BD0F61AF617760019C4E2 /* Sources */,
+				016BD0F71AF617760019C4E2 /* Frameworks */,
+				016BD0F81AF617760019C4E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				016BD0FC1AF617760019C4E2 /* PBXTargetDependency */,
+			);
+			name = waterwaterwaterTests;
+			productName = waterwaterwaterTests;
+			productReference = 016BD0FA1AF617760019C4E2 /* waterwaterwaterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		016BD0D91AF617750019C4E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "郝有峰";
+				TargetAttributes = {
+					016BD0E01AF617750019C4E2 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 2ZC6KG8JJ9;
+					};
+					016BD0F91AF617760019C4E2 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 016BD0E01AF617750019C4E2;
+					};
+				};
+			};
+			buildConfigurationList = 016BD0DC1AF617750019C4E2 /* Build configuration list for PBXProject "waterwaterwater" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 016BD0D81AF617750019C4E2;
+			productRefGroup = 016BD0E21AF617750019C4E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				016BD0E01AF617750019C4E2 /* waterwaterwater */,
+				016BD0F91AF617760019C4E2 /* waterwaterwaterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		016BD0DF1AF617750019C4E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01686C831B34448D007AD59B /* front.jpeg in Resources */,
+				01D8B7821B32BA2800A36BED /* top-blur.jpeg in Resources */,
+				01FB909A1AFCC14E000A8729 /* Skybox.fsh in Resources */,
+				01D8B77E1B32BA2800A36BED /* back-blur.jpeg in Resources */,
+				01FB90981AFCC14E000A8729 /* Droplet.fsh in Resources */,
+				01FB39CF1B301A2200A931A5 /* front-blur.jpeg in Resources */,
+				016BD0F51AF617760019C4E2 /* LaunchScreen.xib in Resources */,
+				01FB909B1AFCC14E000A8729 /* Skybox.vsh in Resources */,
+				01D8B7801B32BA2800A36BED /* left-blur.jpeg in Resources */,
+				01E8EADB1B35BA8B0001DA5F /* afternoon-blur.jpeg in Resources */,
+				01E8EADC1B35BA8B0001DA5F /* afternoon-mirror.jpeg in Resources */,
+				010946521AFFA4F10069B75B /* right.jpg in Resources */,
+				01E8EAD81B35B9480001DA5F /* fushi-mirror.jpeg in Resources */,
+				01D8B77F1B32BA2800A36BED /* bottom-blur.jpeg in Resources */,
+				010946501AFFA4F10069B75B /* front.jpg in Resources */,
+				01D8B7781B326CE500A36BED /* Stain.fsh in Resources */,
+				01D8B7811B32BA2800A36BED /* right-blur.jpeg in Resources */,
+				0109464F1AFFA4F10069B75B /* bottom.jpg in Resources */,
+				0109464E1AFFA4F10069B75B /* back.jpg in Resources */,
+				01FB90991AFCC14E000A8729 /* Droplet.vsh in Resources */,
+				016BD0F01AF617750019C4E2 /* Main.storyboard in Resources */,
+				01686C811B344407007AD59B /* front-mirror.jpeg in Resources */,
+				01D8B7761B326CD600A36BED /* Stain.vsh in Resources */,
+				01E8EAD71B35B9480001DA5F /* fushi-blur.jpeg in Resources */,
+				016BD0F21AF617760019C4E2 /* Images.xcassets in Resources */,
+				010946531AFFA4F10069B75B /* top.jpg in Resources */,
+				010946511AFFA4F10069B75B /* left.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		016BD0F81AF617760019C4E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		016BD0DD1AF617750019C4E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01FB90921AFCC14E000A8729 /* Program.swift in Sources */,
+				017F25A51B00554E0021A38D /* ModelAssetLoader.swift in Sources */,
+				01FB90901AFCC14E000A8729 /* Light.swift in Sources */,
+				01FB908E1AFCC14E000A8729 /* Camera.swift in Sources */,
+				01FB90911AFCC14E000A8729 /* ModelAsset.swift in Sources */,
+				01FB90A11AFE01AC000A8729 /* PhysicsModel.swift in Sources */,
+				016BD0ED1AF617750019C4E2 /* GameViewController.swift in Sources */,
+				01FB909D1AFD1B45000A8729 /* Render.swift in Sources */,
+				01FB39D21B31A08E00A931A5 /* MathUtil.swift in Sources */,
+				01FB907C1AFCBE0A000A8729 /* WorldModel.swift in Sources */,
+				016BD0E71AF617750019C4E2 /* AppDelegate.swift in Sources */,
+				01FB90931AFCC14E000A8729 /* Texture.swift in Sources */,
+				01FB908F1AFCC14E000A8729 /* GLKExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		016BD0F61AF617760019C4E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				016BD1011AF617760019C4E2 /* waterwaterwaterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		016BD0FC1AF617760019C4E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 016BD0E01AF617750019C4E2 /* waterwaterwater */;
+			targetProxy = 016BD0FB1AF617760019C4E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		016BD0EE1AF617750019C4E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				016BD0EF1AF617750019C4E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		016BD0F31AF617760019C4E2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				016BD0F41AF617760019C4E2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		016BD1021AF617760019C4E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		016BD1031AF617760019C4E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		016BD1051AF617760019C4E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = waterwaterwater/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		016BD1061AF617760019C4E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = waterwaterwater/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+			};
+			name = Release;
+		};
+		016BD1081AF617760019C4E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = waterwaterwaterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/waterwaterwater.app/waterwaterwater";
+			};
+			name = Debug;
+		};
+		016BD1091AF617760019C4E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = waterwaterwaterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/waterwaterwater.app/waterwaterwater";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		016BD0DC1AF617750019C4E2 /* Build configuration list for PBXProject "waterwaterwater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				016BD1021AF617760019C4E2 /* Debug */,
+				016BD1031AF617760019C4E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		016BD1041AF617760019C4E2 /* Build configuration list for PBXNativeTarget "waterwaterwater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				016BD1051AF617760019C4E2 /* Debug */,
+				016BD1061AF617760019C4E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		016BD1071AF617760019C4E2 /* Build configuration list for PBXNativeTarget "waterwaterwaterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				016BD1081AF617760019C4E2 /* Debug */,
+				016BD1091AF617760019C4E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 016BD0D91AF617750019C4E2 /* Project object */;
+}

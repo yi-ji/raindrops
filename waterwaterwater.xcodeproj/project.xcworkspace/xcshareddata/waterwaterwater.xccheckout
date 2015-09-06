@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F6C46A8B-D447-4B2C-9B02-6F814ABF5D88</string>
+	<key>IDESourceControlProjectName</key>
+	<string>waterwaterwater</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>303C2AA42065E211A408D4A54C8331B73F3DE37E</key>
+		<string>git.oschina.net:ajih/CocoaGraphics.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>waterwaterwater.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>303C2AA42065E211A408D4A54C8331B73F3DE37E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>git.oschina.net:ajih/CocoaGraphics.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>303C2AA42065E211A408D4A54C8331B73F3DE37E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>303C2AA42065E211A408D4A54C8331B73F3DE37E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>waterwaterwater</string>
+		</dict>
+	</array>
+</dict>
+</plist>
